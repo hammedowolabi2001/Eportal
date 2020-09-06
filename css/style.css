@@ -11,21 +11,26 @@
 }
 #head{
     width: 100%;
-    height: 50px;
+    height: 100px;
     background-color: green;
-    padding-left: 100px;
+    padding-top: 30px;
    
 }
 title{
     width: 100%;
     height: 70px;
 }
+
 .name{
     font-size:35px;
     color:goldenrod;
     font-weight: bolder;
-    
-
+}
+#icon{
+    font-size: 40px; 
+    cursor: pointer; 
+    color: white;
+    margin-left: 60px;
 }
 .name2{
     font-size: 30px;
@@ -38,13 +43,13 @@ title{
     top: 60%;
     left: 40%;
 }
-.tabs{
+/* .tabs{
     margin-right: 70px;
     font-size: 27px;
     color:goldenrod ;
     cursor: pointer;
     
-}
+} */
 a{
     text-decoration: goldenrod;
     color:goldenrod ;
@@ -71,7 +76,7 @@ a{
 
 @media screen and (max-width:520px){
     .name{
-        font-size:25px;
+        font-size:15px;
         color:goldenrod;
         font-weight: bolder;
        
@@ -79,7 +84,8 @@ a{
     }
     #head{
         padding-left: 50px;
-        height: fit-content;
+        height: 70px;
+        padding-top: 15px;
     }
     .tabs{
         margin-right: 40px;
@@ -89,7 +95,10 @@ a{
     .name2{
         font-size: 25px;
     }
-   
+    #icon{
+        margin-left: -18px;
+        font-size: 25px;
+    }
 
 
 
